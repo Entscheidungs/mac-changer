@@ -3,7 +3,7 @@
 p="p"
 n_riga=$(($RANDOM % 307 + 1))
 
-mac0=$(sed -n $n_riga'p' /home/chris/Documents/scripting_sh/indirizzi.txt)
+mac0=$(sed -n $n_riga'p' FILE_CASE_PRODUTTRICI)
 
 mac1=${mac0:0:2}":"${mac0:2:2}":"${mac0:4:2}":" 
 
